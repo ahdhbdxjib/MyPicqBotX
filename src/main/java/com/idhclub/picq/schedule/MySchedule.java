@@ -2,12 +2,10 @@ package com.idhclub.picq.schedule;
 
 
 import cc.moecraft.icq.PicqBotX;
-import cc.moecraft.icq.sender.IcqHttpApi;
 import com.idhclub.picq.Application;
 import com.idhclub.picq.pojo.ShopifyStats;
 import com.idhclub.picq.singleton.SingletonBot;
 import com.idhclub.picq.spider.GetProductData;
-import com.idhclub.picq.utils.SendMsgUtils;
 import org.apache.log4j.Logger;
 import org.quartz.Job;
 import org.quartz.JobExecutionContext;
